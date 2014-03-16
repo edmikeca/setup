@@ -70,7 +70,7 @@ The following is the setup that you WILL need to perform to configure all necess
 
 ##Create an SSH Configuration Entry for github
 1. Open up a git bash prompt
-2. Enter the following command:
+2. Enter the following commands:
 
     ```bash
     touch ~/.ssh/config
