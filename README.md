@@ -72,20 +72,20 @@ ssh-keygen -t rsa -C your_email_address
 1. Open up a git bash prompt
 2. Enter the following command:
 
-```bash
-touch ~/.ssh/config
-notepad ~/.ssh/config
-```
+    ```bash
+    touch ~/.ssh/config
+    notepad ~/.ssh/config
+    ```
 3. Copy and paste the following into the opened file:
 
-```bash
-Host github
-  Hostname ssh.github.com
-  User git
-  Port 443
-  IdentityFile ~/.ssh/id_rsa
-```
-It is important that if you named your keyfile anything other than the default when you created your ssh key, update the IdentityFile line with the path to the name of the keyfile you created.
+    ```bash
+    Host github
+      Hostname ssh.github.com
+      User git
+      Port 443
+      IdentityFile ~/.ssh/id_rsa
+    ```
+    It is important that if you named your keyfile anything other than the default when you created your ssh key, update the IdentityFile line with the path to the name of the keyfile you created.
 
 4. Save the file
 
