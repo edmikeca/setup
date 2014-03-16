@@ -145,24 +145,14 @@ notepad ~/.gitconfig
 1. Open up a git bash prompt and type the following commands:
 ```bash
 cd /c/course 
-git clone github:[your github user name]/prep.git prep
+git clone github:[your github user name]/prep.git
+git clone github:[your github user name]/app.git
 ```
-Assuming your github username is jp the command would look as follows:
+Assuming your github username is jp the commands would look as follows:
 
 ```bash
-git clone github:jp/prep.git prep [enter]
-```
-
-Then clone the app repo:
-
-```bash
-git clone github:[your github user name]/app.git app 
-```
-    
-Assuming your github username is jp the command would look as follows:
-
-```bash
-git clone git@github.com:jp/app.git app
+git clone github:jp/prep.git
+git clone github:jp/app.git
 ```
 
 2. Once you have completed cloning the repositories your course folder should look as follows:
