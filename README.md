@@ -72,6 +72,8 @@ The following is the setup that you WILL need to perform to configure all necess
 2. Enter the following command:
    ```bash
    touch ~/.ssh/config
+   ```
+   ```bash
    notepad ~/.ssh/config
    ```
 3. Copy and paste the following into the opened file:
