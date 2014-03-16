@@ -55,9 +55,9 @@ The following is the setup that you WILL need to perform to configure all necess
 
 1. Open up a git bash prompt
 2. Enter the following command:    
-   ```bash
-   ssh-keygen -t rsa -C your_email_address  
-   ```
+```bash
+ssh-keygen -t rsa -C your_email_address  
+```
    
    Accept the defaults for the remaining prompts  (leave the passphrase blank).  
 3. Navigate to the folder where your ssh key was created (by default your profile folder C:\Users\your_user_name)
@@ -70,12 +70,12 @@ The following is the setup that you WILL need to perform to configure all necess
 ##Create an SSH Configuration Entry for github
 1. Open up a git bash prompt
 2. Enter the following command:
-   ```sh
-   touch ~/.ssh/config
-   ```
-   ```sh
-   notepad ~/.ssh/config
-   ```
+```bash
+touch ~/.ssh/config
+```
+ ```bash
+ notepad ~/.ssh/config
+ ```
 3. Copy and paste the following into the opened file:
 
     Host github
