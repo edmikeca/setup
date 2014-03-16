@@ -97,9 +97,9 @@ notepad ~/.ssh/config
 
 1. Open up a git bash prompt
 2. Enter the following command:
- ```bash
- ssh -v github
- ```
+```bash
+ssh -v github
+```
 3. You may be prompted to cache the server identity (type yes)
 4. If you have setup your ssh settings correctly the bottom part of the command output should look similar to the following:
 
