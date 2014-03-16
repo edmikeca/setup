@@ -94,9 +94,9 @@ touch ~/.ssh/config
 
 1. Open up a git bash prompt
 2. Enter the following command:
-   ```bash
-   ssh -v github
-   ```
+ ```bash
+ ssh -v github
+ ```
 3. You may be prompted to cache the server identity (type yes)
 4. If you have setup your ssh settings correctly the bottom part of the command output should look similar to the following:
 
@@ -136,25 +136,25 @@ Open up a git bash prompt and type in the following commands:
 ## Checkout your local copies of the code
 
 1. Open up a git bash prompt and type the following commands:
-   ```bash
-   cd /c/course 
-   git clone github:[your github user name]/prep.git prep
-   ```
+ ```bash
+ cd /c/course 
+ git clone github:[your github user name]/prep.git prep
+ ```
    Assuming your github username is jp the command would look as follows:
 
-   ```bash
-   git clone github:jp/prep.git prep [enter]
-   ```
+ ```bash
+ git clone github:jp/prep.git prep [enter]
+ ```
 
-   ```bash
-   git clone github:[your github user name]/app.git app 
-   ```
+ ```bash
+ git clone github:[your github user name]/app.git app 
+ ```
     
    Assuming your github username is jp the command would look as follows:
 
-   ```bash
-   git clone git@github.com:jp/app.git app
-   ```
+ ```bash
+ git clone git@github.com:jp/app.git app
+ ```
 
 2. Once you have completed cloning the repositories your course folder should look as follows:
 
@@ -164,8 +164,12 @@ Open up a git bash prompt and type in the following commands:
 
 Open up a git bash prompt and type the following commands:
 
-1. cd /c/course/setup [enter]
-2. explorer . [enter]
+```bash
+cd /c/course/setup
+```
+```bash
+explorer
+```
 
 Double click the mingw-get-inst-20111118.exe installer and install using the following screenshots:
 
