@@ -108,10 +108,12 @@ ssh -v github
 ##Clone this setup repository
 
 1. Open up a git bash prompt and type the following commands:
-  * cd /c [enter]
-  * mkdir course [enter]
-  * cd course [enter]
-  * git clone github:aglcmarch2014/setup.git [enter]
+```bash
+cd /c
+mkdir course
+cd course
+git clone github:aglcmarch2014/setup.git
+```
 
 At the completion of the last command you should have a copy of this repository on your local machine.
 
@@ -121,10 +123,12 @@ The following steps will ensure that you have your git environment configured in
 
 Open up a git bash prompt and type in the following commands:
 
-1. cd /c/course/setup [enter]
-2. ./copy_config [enter]
-3. notepad ~/.gitconfig [enter]
-    * change the email and name settings under the [user] section. Save your changes
+```bash
+cd /c/course/setup 
+. ./copy_config
+notepad ~/.gitconfig
+```
+* Change the email and name settings under the [user] section. Save your changes
 
 
 ##Fork the project repositories for the week
@@ -139,25 +143,27 @@ Open up a git bash prompt and type in the following commands:
 ## Checkout your local copies of the code
 
 1. Open up a git bash prompt and type the following commands:
- ```bash
- cd /c/course 
- git clone github:[your github user name]/prep.git prep
- ```
-   Assuming your github username is jp the command would look as follows:
+```bash
+cd /c/course 
+git clone github:[your github user name]/prep.git prep
+```
+Assuming your github username is jp the command would look as follows:
 
- ```bash
- git clone github:jp/prep.git prep [enter]
- ```
+```bash
+git clone github:jp/prep.git prep [enter]
+```
 
- ```bash
- git clone github:[your github user name]/app.git app 
- ```
+Then clone the app repo:
+
+```bash
+git clone github:[your github user name]/app.git app 
+```
     
-   Assuming your github username is jp the command would look as follows:
+Assuming your github username is jp the command would look as follows:
 
- ```bash
- git clone git@github.com:jp/app.git app
- ```
+```bash
+git clone git@github.com:jp/app.git app
+```
 
 2. Once you have completed cloning the repositories your course folder should look as follows:
 
