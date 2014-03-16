@@ -165,11 +165,8 @@ Open up a git bash prompt and type the following commands:
 
 ```bash
 cd /c/course/setup
+explorer .
 ```
-```bash
-explorer
-```
-
 Double click the mingw-get-inst-20111118.exe installer and install using the following screenshots:
 
 ![mingw_setup_part_1](http://github.com/aglcmarch2014/setup/raw/master/images/mingw_setup_part_1.png)
