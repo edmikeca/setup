@@ -108,12 +108,12 @@ The following is the setup that you WILL need to perform to configure all necess
 
 1. Open up a git bash prompt and type the following commands:
 
-    ```bash
-    cd /c
-    mkdir course
-    cd course
-    git clone github:aglcmarch2014/setup.git
-    ```
+```bash
+cd /c
+mkdir course
+cd course
+git clone github:aglcmarch2014/setup.git
+```
 
 At the completion of the last command you should have a copy of this repository on your local machine.
 
