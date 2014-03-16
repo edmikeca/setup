@@ -56,9 +56,9 @@ The following is the setup that you WILL need to perform to configure all necess
 1. Open up a git bash prompt
 2. Enter the following command:
 
-```bash
-ssh-keygen -t rsa -C your_email_address  
-```
+    ```bash
+    ssh-keygen -t rsa -C your_email_address  
+    ```
    
    Accept the defaults for the remaining prompts  (leave the passphrase blank).  
 3. Navigate to the folder where your ssh key was created (by default your profile folder C:\Users\your_user_name)
@@ -95,9 +95,9 @@ ssh-keygen -t rsa -C your_email_address
 
 1. Open up a git bash prompt
 2. Enter the following command:
-```bash
-ssh -v github
-```
+    ```bash
+    ssh -v github
+    ```
 3. You may be prompted to cache the server identity (type yes)
 4. If you have setup your ssh settings correctly the bottom part of the command output should look similar to the following:
 
@@ -106,12 +106,12 @@ ssh -v github
 ##Clone this setup repository
 
 1. Open up a git bash prompt and type the following commands:
-```bash
-cd /c
-mkdir course
-cd course
-git clone github:aglcmarch2014/setup.git
-```
+    ```bash
+    cd /c
+    mkdir course
+    cd course
+    git clone github:aglcmarch2014/setup.git
+    ```
 
 At the completion of the last command you should have a copy of this repository on your local machine.
 
@@ -141,17 +141,17 @@ notepad ~/.gitconfig
 ## Checkout your local copies of the code
 
 1. Open up a git bash prompt and type the following commands:
-```bash
-cd /c/course 
-git clone github:[your github user name]/prep.git
-git clone github:[your github user name]/app.git
-```
-Assuming your github username is jp the commands would look as follows:
+    ```bash
+    cd /c/course 
+    git clone github:[your github user name]/prep.git
+    git clone github:[your github user name]/app.git
+    ```
+    Assuming your github username is jp the commands would look as follows:
 
-```bash
-git clone github:jp/prep.git
-git clone github:jp/app.git
-```
+    ```bash
+    git clone github:jp/prep.git
+    git clone github:jp/app.git
+    ```
 
 2. Once you have completed cloning the repositories your course folder should look as follows:
 
@@ -177,11 +177,18 @@ Double click the mingw-get-inst-20111118.exe installer and install using the fol
 
 Open up a git bash prompt and type the following commands:
 
-1. cd /c/course/setup [enter]
-2. notepad dev_tools/mingw/profile [enter]
-3. Change lines 20 and 23 so that the location of your ruby bin directory and git bin directory match up with where you installed the programs. I would strongly recommend using spaceless paths so that you won't have to fiddle around with escaping spaces. The default values of the lines are where I have installed those tools to.
-4. Run the following command
-   * ./copy_mingw_config [enter]
+```bash
+cd /c/course/setup
+notepad dev_tools/mingw/profile
+```
+
+Change lines 20 and 23 so that the location of your ruby bin directory and git bin directory match up with where you installed the programs. I would strongly recommend using spaceless paths so that you won't have to fiddle around with escaping spaces. The default values of the lines are where I have installed those tools to.
+
+Run the following command
+
+```bash
+./copy_mingw_config [enter]
+```
 
 The above step copies the modified config file into the folder where you should have installed mingw (c:\utils\mingw). 
 
