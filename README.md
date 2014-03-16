@@ -74,9 +74,6 @@ ssh-keygen -t rsa -C your_email_address
 
 ```bash
 touch ~/.ssh/config
-```
-
-```bash
 notepad ~/.ssh/config
 ```
 3. Copy and paste the following into the opened file:
