@@ -20,4 +20,4 @@ autocrlf = input
   tool = vimdiff
 
 [push]
-    default = current
+  default = current
