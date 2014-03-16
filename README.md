@@ -95,6 +95,7 @@ The following is the setup that you WILL need to perform to configure all necess
 
 1. Open up a git bash prompt
 2. Enter the following command:
+
     ```bash
     ssh -v github
     ```
