@@ -107,6 +107,7 @@ The following is the setup that you WILL need to perform to configure all necess
 ##Clone this setup repository
 
 1. Open up a git bash prompt and type the following commands:
+
     ```bash
     cd /c
     mkdir course
