@@ -70,10 +70,10 @@ The following is the setup that you WILL need to perform to configure all necess
 ##Create an SSH Configuration Entry for github
 1. Open up a git bash prompt
 2. Enter the following command:
-   ```bash
+   ```sh
    touch ~/.ssh/config
    ```
-   ```bash
+   ```sh
    notepad ~/.ssh/config
    ```
 3. Copy and paste the following into the opened file:
