@@ -203,7 +203,7 @@ You should see a git version, if you don't see anything, you will have to repeat
 
 ##Install IIS Express 7.5
 
-* If you already have a version of IIS Express installed (even if it is >= 7.5) please uninstall it.
+###If you already have a version of IIS Express installed (even if it is >= 7.5) please uninstall it.
 
 Install iis_express following these steps:
   1. Download the installer from [here](http://www.microsoft.com/en-us/download/confirmation.aspx?id=1038)
